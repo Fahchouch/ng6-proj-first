@@ -1,0 +1,16 @@
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:9px;
+}
+
+td {
+    padding: 8px;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4F1B75;
+    color: white;
+}

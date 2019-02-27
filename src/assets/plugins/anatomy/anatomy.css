@@ -1,0 +1,119 @@
+/* 
+    Document   : anatony
+    Created on : Oct 3, 2011, 12:47:56 PM
+    Author     : matthew.eichler@aventinesolutions.nl
+    Description:
+        Styles for the anatomy pop-up which enables visual
+        selection of body parts in the PATDOC system
+*/
+root { 
+  display: block;
+}
+
+div#frontsectioncontainer {
+  overflow: hidden;
+  position: relative;
+  float: left;
+  width: 283px;
+  height: 567px;
+}
+
+div#backsectioncontainer {
+  overflow: hidden;
+  position: relative;
+  float: left;
+  width: 283px;
+  height: 567px;
+}
+
+div#leftlegsectioncontainer {
+  overflow: hidden;
+  position: relative;
+  float: left;
+  width: 283px;
+  height: 567px;
+}
+
+div#rightlegsectioncontainer {
+  overflow: hidden;
+  position: relative;
+  float: left;
+  width: 283px;
+  height: 567px;
+}
+
+div#feetabovesectioncontainer {
+  overflow: hidden;
+  position: relative;
+  float: left;
+  width: 283px;
+  height: 283px;
+}
+
+div#feetbelowsectioncontainer {
+  overflow: hidden;
+  position: relative;
+  float: left;
+  width: 283px;
+  height: 283px;
+}
+
+/*div#bodyparttext {
+  overflow: hidden;
+  position: relative;
+  float: left;
+  width: 283px;
+  height: 40px;
+  text-align: right;
+}*/
+
+div.imagebodysection  {
+  display: none;
+  /*float: right;
+  position: relative;
+  top: 0px;
+  left: 0px;*/
+  overflow: hidden;
+}
+
+div.imagebodysection-td  {
+  display: none;
+  float: right;
+  position: relative;
+  top: -14px;
+  left: 20px;
+}
+
+/* this version gives room to the left for the upload button on Firefox */
+div.imagebodysection-upload {
+  display: none;
+  float: right;
+  position: relative;
+  top: 0px;
+  left: 230px;
+}
+
+img.bodysection {
+  position: absolute;
+  z-index: 1;
+  border: none;
+}
+
+img.bodypartchosen {
+  position: absolute;
+  z-index: 2;
+  border: none;
+}
+
+img.bodypartselected {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  /*border: thin solid black;*/
+}
+
+img.bodyparthover {
+  position: absolute;
+  z-index: 3;
+  border: none;
+}

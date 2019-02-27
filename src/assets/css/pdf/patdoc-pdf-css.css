@@ -1,0 +1,87 @@
+@CHARSET "ISO-8859-1";
+body{
+    color:#646464;
+}
+h1{
+    /*border-bottom: 1px solid black;*/
+    /*height: 20px;*/
+    font-size: 30px;
+
+} 
+h4{
+    /*border-bottom: 1px solid black;*/
+    text-align: left;
+    /*height: 20px;*/
+    font-size: 30px;
+
+}
+div.pdf_logo {
+    text-align: left;
+}
+table{
+    color: #323232;
+    font-size: 10px;
+}
+
+div#pdf_header table{
+    color: #646464;
+    font-family: helvetica;
+}
+/*  div.pdf_logo img {
+    width: 226px;
+    height: 73px;
+  }*/
+table td, table td{
+    height: 12px;
+}
+
+table.body th{
+    font-weight: bold;
+    /* width: 30%;*/
+}
+
+table.body tr td{
+    /*width: 70%;*/
+    height: 12px;
+}
+div.pdf_adres{
+    font-weight: bold;
+    font-size: 45px;
+    text-align: right;
+}
+table tr.header{
+    /*background-color:#EAEAEA;*/
+    background-color:#EFEFEF;
+    color:black;
+}
+
+table tr.header td.cell1,
+table tr.header td.cell2,
+table tr.header td.cell3,
+table tr.header td.cell4{
+    /*    border-left: 0px solid black;
+        border-top: 0px solid black;
+        border-right: 0px solid black;
+        border-bottom:  0px solid black;*/
+    font-size: 45px;
+
+}
+
+table tr th,table tr td,small{
+    font-size: 35px;
+}
+
+/* margin table */
+table#margtable{
+    width:100%;
+}
+table#margtable td.colleft{
+    width:4%;
+}
+table#margtable td.colmidden{
+    width:92%;
+}
+table#margtable td.colright{
+    width:4%;
+}
+/* eind margin table */

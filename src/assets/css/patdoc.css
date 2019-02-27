@@ -1,0 +1,308 @@
+.font_size_number{
+	font-size:18px;
+}
+form .required {
+    background-image: url("./../../assets/img/required-field.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding-right: 12px;
+}
+
+.navbar.navbar-inverse .navbar-brand, .sidebar .nav > li.active > a, 
+.sidebar .nav > li.active > a:focus, .sidebar .nav > li.active > a:hover, 
+.page-sidebar-minified .sidebar .nav > li.has-sub.active:focus > a, 
+.page-sidebar-minified .sidebar .nav > li.has-sub.active:hover > a, 
+.page-sidebar-minified .sidebar .nav > li.has-sub.active > a, 
+.label.label-theme, .btn.btn-scroll-to-top {
+    background: #4F1B75 none repeat scroll 0 0;
+}
+
+.navbar-brand {
+    padding: 8px 20px;
+}
+
+.sidebar {
+    /*padding-top: 75px;*/
+}
+
+.header {
+    /*height: 75px;*/
+}
+
+.page-header {
+    /*margin: 8px 0 20px;*/
+}
+
+.sidebar .sub-menu > li.active > a:before {
+    color: #49176D;
+}
+
+a {
+    color: #4f1b75;
+    /*/color: #24B498;
+    color: #97833C;*/
+}
+
+.panel-inverse > .panel-heading {
+    background: #4f1b75 none repeat scroll 0 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4f1b75;
+    font-weight: 500;
+}
+
+.btn.btn-success {
+    background: #4F1B75 none repeat scroll 0 0;
+    border-color: #4F1B75;
+    color: #fff;
+}
+.btn.btn-success:hover, 
+.btn.btn-success:focus, 
+.btn.btn-success:active, 
+.btn.btn-success.active, 
+.open .dropdown-toggle.btn-success {
+    background: #49176D;
+    border-color: #49176D;
+}
+
+.btn-group .btn.btn-success:not(.active) + .btn.btn-success,
+.input-group-btn .btn.btn-success:not(.active) + .btn.btn-success {
+    border-left-color: #49176D;
+}
+
+.btn.btn-success.active,.btn.btn-success:active,.btn.btn-success:focus,.btn.btn-success:hover,.open .dropdown-toggle.btn-success{background:#49176D;border-color:#49176D}
+.btn-group .btn.btn-success:not(.active)+.btn.btn-success,.input-group-btn .btn.btn-success:not(.active)+.btn.btn-success{border-left-color:#49176D}
+.panel-success>.panel-heading{background:#49176D}
+.bg-green-darker{background:#49176D!important}
+
+.bwizard-steps li.active, .bwizard-steps li.active:focus, .bwizard-steps li.active:hover {
+    background: #4F1B75 none repeat scroll 0 0 !important;
+}
+
+.bwizard-steps .label {
+    background: #B4881F none repeat scroll 0 0 !important;
+    border-radius: 50% !important;
+    float: left !important;
+    height: 20px !important;
+    line-height: 20px !important;
+    margin-right: 10px !important;
+    padding: 0 !important;
+    text-align: center !important;
+    top: 0 !important;
+    width: 20px !important;
+}
+
+.bwizard-steps li.active .label {
+    /*background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0 !important;*/
+    background: #B4881F none repeat scroll 0 0 !important;
+}
+
+.iconincolor {color:#24B498;}
+
+.borderless > tbody > tr > td, .borderless > tbody > tr > th {
+    padding: 7px 0px;
+    border:0px;
+}
+
+.patdoc-input-group-addon{
+    /*padding: 6px 0px;*/
+}
+
+.textAlignementCenter{
+	text-align: center
+}
+
+.loginPageMargin{
+	margin-left: 27px;
+	margin-right: 32px;
+}
+
+.btn-link {
+    color: #4F1B75;
+}
+
+.titleFontIcon{
+	vertical-align : 0%;
+}
+
+.scrolledDiv{
+	overflow-x: scroll;
+}
+
+.whoIamDiv{
+	margin-top: 10px;
+}
+
+.quickSearchButton{
+	/*margin-top: 10px;*/
+}
+
+.quickSearchInput{
+	/*margin-top: 10px;*/
+	width: 300px;
+	animation: none;
+}
+.scroller{
+	overflow: auto;
+	white-space:nowrap;
+	overflow-y: hidden;
+}
+.medium_logo{
+	padding-top: 15px;
+}
+
+.tagit.ui-widget {
+    border: 1px solid #fff !important;
+    padding: 3px 0 2px !important;
+}
+
+small.warning{
+	color:#ff5b57;
+}
+
+.form-horizontal .control-label {
+    text-align: left;
+}
+
+.percent50{
+	width: 50%;
+	height: 50%;
+}
+
+.percent100{
+	width: 100%;
+	height: 100%;
+}
+label {
+    font-weight: 600;
+}
+
+.divSeparator {
+	height:10px;
+}
+
+.btn-sm-padding {
+    padding: 5px 2px;
+}
+
+.btn-sm-extra-padding {
+    padding: 1px 2px;
+}
+/********************************  Twitter *********************/
+.bg-silver-twitter {
+    background: #FFFFFF !important;
+}
+.panel-inverse > .tweets-panel{
+	background: #5FA8DB;
+}
+
+/*************** end style Twittrer *************/
+/**************** Notification ****************/
+.dropdown-menu.notification-color-dropdown-menu{
+	background-color:#FAFAFA;
+}
+/***************** End Notificaton**************/
+.nav-tabs {
+    background: #4F1B75;
+}
+
+.nav > li > a {
+    color: #FFFFFF;
+}
+
+.nav-tabs.nav-justified > .active > a, 
+.nav-tabs.nav-justified > .active > a:focus, 
+.nav-tabs.nav-justified > .active > a:hover, 
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:focus, 
+.nav-tabs > li.active > a:hover {
+    color: #4F1B75;
+}
+
+.more{
+	display:none;
+}
+
+a.facesIcons{
+	color:#FFFFFF;
+}
+
+.popupPadding{
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+/******************** Validation form Jquery**************/
+.valid {
+    background-color: #c6ffb3;
+}
+/***************** END Validation Form Jquery********/
+.modal-dialog-medium {
+    margin: 30px auto;
+    width: 1570px;
+}
+.modal-dialog-medium2 {
+    margin: 20px auto;
+    width: 1200px;
+}
+.fa {
+	color: #4f1b75;
+}
+.fa-color-icon {
+	color: #FFFFFF;
+}
+
+.sidebar .nav > li > a > i {
+	color: #a8acb1;
+}
+.panel-heading > h4 > i {
+    color: #fff;
+}
+
+.btn > i {
+    color: #fff;
+}
+
+.tableWithoutBorder > tbody > tr > td, .tableWithoutBorder > tbody > tr > th {
+    border:0px;
+}
+
+.bg-green2 {
+    background: #1af59c !important;
+}
+
+.bg-blue2 {
+    background: #1ae1f5 !important;
+}
+
+.bg-grey {
+    background: #81a0a3 !important;
+}
+
+.bg-blue3 {
+    background: #051631  !important;
+}
+
+.bg-rose {
+    background: #f22ca2  !important;
+}
+
+.bg-grey2 {
+    background: #918797 !important;
+}
+
+.dropdown-menu {
+	 /*z-index: 1000;*/
+	 /*position:relative*/
+}
+
+.sms-button{
+  border:none;
+  outline:none;
+  /*background-color:#0BD318;*/
+  background: linear-gradient(#4f1b75, #5e1b75);
+  border-radius:3px;
+  color:white;
+}
