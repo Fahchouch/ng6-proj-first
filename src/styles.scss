@@ -1,54 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
-
-
-body {
-  margin: 0;
-  background: #F2F2F2;
-  font-family: 'Montserrat', sans-serif;
-  height: 100vh;
+body, html {
+    height: 100%;
+    margin: 0 auto;
 }
 
-#container {
-  display: grid;
-  grid-template-columns: 70px auto;
-  height: 100%;
+body {
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
 
-  #content {
-    padding: 30px 50px;
+a {
+    text-decoration: none;
+}
 
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1.3em;
+    display: grid;
+    grid-template-columns: 30% auto;
 
-      li {
-        background: #fff;
-        border-radius: 8px;
-        padding: 20px;
-        margin-bottom: 8px;
-
-        a {
-          font-size: 1.5em;
-          text-decoration: none;
-          font-weight: bold;
-          color: #00A8FF;
-        }
-
-        ul {
-          margin-top: 20px;
-
-          li {
-            padding: 0;
-
-            a {
-              font-size: 1em;
-              font-weight: 300;
-            }
-          }
-        }
-      }
+    a {
+        color: white;
     }
-  }
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em;
 }
